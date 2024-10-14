@@ -2,7 +2,7 @@
 //I use the const to declare the choices sunce they will be constant through the game.
 function getComputerChoice() {
   const choices = ['rock', 'paper', 'scissors'];
-  const randomIndex = Math.floor(Math.random() * 3);
+  const randomIndex = Math.floor(Math.random() * choiceslength);
   return choices[randomIndex];
 }
 
