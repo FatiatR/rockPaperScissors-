@@ -36,11 +36,11 @@ while (true) {
   // Get computer choice
   const computerChoice = getComputerChoice();
 
-  // Show the humanChoice and computerChouce
+  // Show the humanChoice and computerChouce.I used the console.log to print out the choices of both human and computer 
   console.log("You chose: " + humanChoice);
   console.log("Computer chose: " + computerChoice);
 
-  // Calculate the game result 
+  // Calculate the game result and also used the console.log to print out the round
   const playRound = getHumanChoice(humanChoice, computerChoice);
   console.log(playRound);
 
